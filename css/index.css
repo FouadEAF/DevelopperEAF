@@ -8,15 +8,12 @@
   --twitter: #1DA1F2;
   --whatsapp: #04c47a;
   --github: #161b22;
-  --work: #e2a96f;
-
   --b-accent: #ffffff;
   --s-button: #4c4c4c;
   --name-color: #ffffff;
-  --about-color: #656565;
-
+  --about-color: #c4c4c4;
+  --sousNam-color: #fce3e3;
   --glass-buttons: #ffffff0c;
-
   --b-background: #333333;
   --background: linear-gradient(315deg, #000000 0%, #555555 74%);
   /*  Speed of transition (Czech) */
@@ -49,6 +46,7 @@ body {
   --s-button: #553da3;
   --name-color: #ffffff;
   --about-color: #594a8c;
+  --sousNam-color: #000000;
   --youtube: rgb(255, 0, 0);
 }
 
@@ -204,6 +202,11 @@ input:checked + .slider:before {
   color: var(--about-color);
   font-size: 16px;
 }
+.ohraniceni .sousNam {
+  font-weight: 400;
+  color: var(--sousNam-color);
+  font-size: 12px;
+}
 
 .wrapper {
   display: table;
@@ -291,9 +294,7 @@ input:checked + .slider:before {
 .wrapper .button:nth-child(6) .icon::before {
     background: var(--github);
 }
-.wrapper .button:nth-child(7) .icon::before {
-  background: var(--work);
-}
+
 .wrapper .button .icon i {
   /* z-index: 100; */
     position: relative;
@@ -334,7 +335,4 @@ input:checked + .slider:before {
 }
 .wrapper .button:nth-child(6) span {
     color: var(--github);
-}
-.wrapper .button:nth-child(7) span {
-  color: var(--work);
 }
