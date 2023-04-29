@@ -280,21 +280,20 @@ input:checked + .slider:before {
   background: var(--linkedin);
 }
 .wrapper .button:nth-child(2) .icon::before {
-    background: var(--youtube);
+  background: var(--github);
 }
 .wrapper .button:nth-child(3) .icon::before {
     background: var(--twitter);
 }
 .wrapper .button:nth-child(4) .icon::before {
-    background: var(--facebook);
+  background: var(--youtube);
 }
 .wrapper .button:nth-child(5) .icon::before {
     background: var(--whatsapp);
 }
 .wrapper .button:nth-child(6) .icon::before {
-    background: var(--github);
+    background: var(--facebook);
 }
-
 .wrapper .button .icon i {
   /* z-index: 100; */
     position: relative;
@@ -322,17 +321,17 @@ input:checked + .slider:before {
     color: var(--linkedin);
 }
 .wrapper .button:nth-child(2) span {
-    color: var(--youtube);
+    color: var(--github);
 }
 .wrapper .button:nth-child(3) span {
     color: var(--twitter);
 }
 .wrapper .button:nth-child(4) span {
-    color: var(--facebook);
+    color: var(--youtube);
 }
 .wrapper .button:nth-child(5) span {
     color: var(--whatsapp);
 }
-.wrapper .button:nth-child(6) span {
-    color: var(--github);
+.wrapper .button:nth-child(5) span {
+    color: var(--facebook);
 }
